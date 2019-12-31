@@ -17,13 +17,15 @@ public:
         cout << "I am two wheeler" << endl; 
     } 
 }; 
+//threeWheeler class 
 class FourWheeler : public Vehicle { 
     public: 
     void printVehicle() { 
         cout << "I am four wheeler" << endl; 
     } 
 }; 
-
+//define client class
+//create object method declaration
 int main() { 
     cout <<"Main thread is strated..!!\n";
     return 0; 
