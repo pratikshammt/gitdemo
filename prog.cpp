@@ -24,9 +24,15 @@ class FourWheeler : public Vehicle {
         cout << "I am four wheeler" << endl; 
     } 
 }; 
+
 //define client class
 //create object method declaration
 int main() { 
     cout <<"Main thread is strated..!!\n";
+ 
+    // main thread started
+    //create client object
+    //create vehicle object
+    //call print method
     return 0; 
 } 
