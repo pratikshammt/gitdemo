@@ -25,3 +25,11 @@ class three : public Vehicle {
         cout << "I am four wheeler" << endl; 
     } 
 }; 
+
+int main() { 
+    // main thread started
+    //create client object
+    //create vehicle object
+    //call print method
+    return 0; 
+} 
