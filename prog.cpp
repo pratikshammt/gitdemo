@@ -11,6 +11,12 @@ public:
     virtual void printVehicle() = 0; 
     static Vehicle* Create(VehicleType type); 
 }; 
+class TwoWheeler : public Vehicle { 
+public: 
+    void printVehicle() { 
+        cout << "I am two wheeler" << endl; 
+    } 
+}; 
 class ThreeWheeler : public Vehicle { 
 public: 
     void printVehicle() { 
